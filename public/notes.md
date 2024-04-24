@@ -44,3 +44,9 @@ module.exports = {
 ```
 
 Esto permitirá que tu aplicación cargue imágenes desde los lugares especificados utilizando los patrones remotos proporcionados.
+
+---
+
+Página utilizada para montar el blur: https://blurred.dev/
+
+command + shift + R = Recargar sin cache
