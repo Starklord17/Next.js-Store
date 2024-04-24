@@ -71,3 +71,9 @@ const nextConfig = {
 
 export default nextConfig;
 ```
+
+---
+
+### Curso de Fundamentos de Sass: 
+
+Crea tu Primera Landing Page: https://platzi.com/cursos/sass/
