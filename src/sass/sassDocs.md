@@ -77,3 +77,10 @@ export default nextConfig;
 ### Curso de Fundamentos de Sass: 
 
 Crea tu Primera Landing Page: https://platzi.com/cursos/sass/
+
+
+---
+
+- https://www.npmjs.com/package/classnames
+
+Classnames nos permite aplicar estilos dinámicos de manera sencilla y flexible en React. Podemos agregar o quitar clases de manera condicional según el estado de nuestros componentes, como en este caso al hacer clic en un botón. Esto nos permite cambiar los estilos de forma dinámica y mantener un código más limpio y legible.
