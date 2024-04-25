@@ -1,7 +1,17 @@
-'use client'
+const getProducts = async () => {
+  const res = await fetch(`${process.env.SHOPIFY_HOSTNAME}/admin/api/2023-10/products.json`, {
+    headers: new Headers ({
+      'X-Shopify-Access-Token': process.env.SHOPIFY_API_KEY || "",
+    })
+  });
+  const data = await res.json();
+  return data;
+}
 
-export const MainProducts = () => {
-  console.log("Variable de entorno: ", process.env.SHOPIFY_HOSTNAME);
+// Ventaja de los server components en Next.js => Pueden ser async
+export const MainProducts = async () => {
+  const products = await getProducts();
+  console.log(products);
   
   return (
     <section>
