@@ -39,5 +39,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - Pages Router: https://nextjs.org/docs/pages/api-reference/create-next-app
 - Documentacion the shopify: https://shopify.dev/docs/api/storefront
+- https://shopify.dev/docs/api/admin-rest/2023-10/resources/product#post-products
 - https://nextjs.org/docs/app/api-reference/functions/generate-metadata
 - https://www.npmjs.com/package/classnames
