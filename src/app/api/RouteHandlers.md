@@ -60,6 +60,16 @@ Algunas características y beneficios de la arquitectura Back for Frontend son:
 
 5. Escalabilidad y mantenibilidad: Al separar la lógica del backend en el BFF, se facilita la escalabilidad y el mantenimiento de la aplicación. Cada equipo (frontend y backend) puede desarrollar y escalar su parte de la aplicación de manera independiente, lo que mejora la modularidad y facilita las actualizaciones y mejoras en cada capa.
 
+La arquitectura Back for Frontend permite la optimización del rendimiento, la transferencia de datos, la experiencia del usuario y el desarrollo de aplicaciones web. Proporciona una capa de abstracción y personalización entre el frontend y el backend, lo que permite mejorar la eficiencia y la calidad de la aplicación en general.
+
+Optimización del rendimiento: Al tener un BFF que actúa como intermediario entre el frontend y el backend, se pueden implementar estrategias de caché y optimización de consultas para mejorar el rendimiento de la aplicación. Esto incluye la reducción de la cantidad de solicitudes al backend, la implementación de técnicas de almacenamiento en caché y la optimización de las consultas a los servicios backend.
+
+Optimización de la transferencia de datos: El BFF puede realizar transformaciones y agregaciones de datos para enviar solo la información necesaria al frontend. Esto reduce el tamaño de las respuestas y minimiza la cantidad de datos transferidos entre el frontend y el backend, lo que se traduce en una mejor experiencia de usuario y menor consumo de ancho de banda.
+
+Optimización de la experiencia del usuario: Al personalizar las respuestas del backend según las necesidades del frontend, el BFF puede proporcionar una experiencia de usuario más fluida y eficiente. Esto implica adaptar los datos recibidos del backend, realizar combinaciones de datos y presentarlos de manera optimizada para su visualización en el frontend.
+
+Optimización del desarrollo y mantenimiento: La arquitectura Back for Frontend facilita la modularidad y la independencia entre el frontend y el backend, lo que permite un desarrollo más ágil y escalable. Cada equipo puede trabajar de manera autónoma en su capa correspondiente, lo que simplifica las actualizaciones y mejoras sin afectar directamente a la otra capa.
+
 En conclusión, la arquitectura Back for Frontend permite la optimización del rendimiento, la transferencia de datos, la experiencia del usuario y el desarrollo de aplicaciones web. Proporciona una capa de abstracción y personalización entre el frontend y el backend, lo que permite mejorar la eficiencia y la calidad de la aplicación en general.
 
 
@@ -67,3 +77,9 @@ En conclusión, la arquitectura Back for Frontend permite la optimización del r
 
 - https://developer.mozilla.org/es/docs/Web/HTTP/Methods
 
+
+### Notes
+
+Implementación de lo que seria un Proxy Server: Que también se le podría llamar Back for Frontend, que consiste en exponer los endpoint y consumirlos de manera interna.
+(Consumirla en componentes que sean de tipo cliente)
+Al consumirla desde un endpoint es seguro en el sentido de que en el lado del cliente no se expone nada del servidor.
