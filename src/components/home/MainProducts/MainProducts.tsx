@@ -62,7 +62,8 @@ interface Product {
 
 // Ventaja de los server components en Next.js => Pueden ser async
 export const MainProducts = async () => {
-  const products = await getProducts();
+  const reponse = await fetch('http://localhost:3000/api')
+  const { products } = await reponse.json()
   // console.log(products)
   
   return (
