@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { getProducts } from 'app/services/shopify'
 import styles from "./MainProducts.module.sass";
 
 interface Product {
@@ -40,13 +41,13 @@ interface Product {
   };
 }
 
-const getProducts = async () => {
+/* const getProducts = async () => {
   try {
     const response = await fetch(
       `${process.env.SHOPIFY_HOSTNAME}/admin/api/2023-10/products.json`,
       {
         headers: new Headers({
-          "X-Shopify-Access-Token": process.env.SHOPIFY_API_KEY || "",
+          "X-Shopify-Access-Token": process.env.SHOPIFY_TOKEN || "",
         }),
       }
     );
@@ -57,7 +58,8 @@ const getProducts = async () => {
     console.error("Error fetching products", error);
     throw error;
   }
-};
+}; */
+
 // Ventaja de los server components en Next.js => Pueden ser async
 export const MainProducts = async () => {
   const products = await getProducts();
