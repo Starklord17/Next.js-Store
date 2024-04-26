@@ -42,3 +42,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - https://shopify.dev/docs/api/admin-rest/2023-10/resources/product#post-products
 - https://nextjs.org/docs/app/api-reference/functions/generate-metadata
 - https://www.npmjs.com/package/classnames
+- https://shopify.dev/docs/api/admin-rest/2023-10/resources/smartcollection
+- https://nextjs.org/docs/app/building-your-application/data-fetching/patterns
