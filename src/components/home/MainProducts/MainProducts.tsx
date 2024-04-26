@@ -1,6 +1,6 @@
-import React from "react";
+// import React from "react";
 import Image from "next/image";
-import { getProducts } from 'app/services/shopify'
+// import { getProducts } from 'app/services/shopify'
 import styles from "./MainProducts.module.sass";
 
 interface Product {
@@ -62,8 +62,8 @@ interface Product {
 
 // Ventaja de los server components en Next.js => Pueden ser async
 export const MainProducts = async () => {
-  const reponse = await fetch('http://localhost:3000/api')
-  const { products } = await reponse.json()
+  const response = await fetch('http://localhost:3000/api')
+  const { products } = await response.json()
   // console.log(products)
   
   return (
