@@ -46,3 +46,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - https://nextjs.org/docs/app/building-your-application/data-fetching/patterns
 - https://transform.tools/json-to-typescript
 - https://randomkeygen.com/
+- https://www.npmjs.com/package/sanitize-html
