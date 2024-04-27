@@ -45,3 +45,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - https://shopify.dev/docs/api/admin-rest/2023-10/resources/smartcollection
 - https://nextjs.org/docs/app/building-your-application/data-fetching/patterns
 - https://transform.tools/json-to-typescript
+- https://randomkeygen.com/
