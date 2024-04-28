@@ -38,7 +38,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Resources
 
 - Pages Router: https://nextjs.org/docs/pages/api-reference/create-next-app
-- Documentacion the shopify: https://shopify.dev/docs/api/storefront
+- [Documentacion the shopify](https://shopify.dev/docs/api/storefront)
 - https://shopify.dev/docs/api/admin-rest/2023-10/resources/product#post-products
 - https://nextjs.org/docs/app/api-reference/functions/generate-metadata
 - https://www.npmjs.com/package/classnames
@@ -49,3 +49,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - https://www.npmjs.com/package/sanitize-html
 - https://shopify.dev/docs/api/storefront
 - [Shopify Headless](https://apps.shopify.com/headless?locale=es&search_id=0dd5a103-8e6e-4a34-b9a5-47280c898af4&surface_detail=headless&surface_inter_position=1&surface_intra_position=4&surface_type=search)
+
+Minimal GraphQL client supporting Node and browsers for scripts or simple apps
+- [graphql-request](https://www.npmjs.com/package/graphql-request)
