@@ -49,3 +49,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - https://www.npmjs.com/package/sanitize-html
 - https://shopify.dev/docs/api/storefront
 - [Shopify Headless](https://apps.shopify.com/headless?locale=es&search_id=0dd5a103-8e6e-4a34-b9a5-47280c898af4&surface_detail=headless&surface_inter_position=1&surface_intra_position=4&surface_type=search)
+
+- [GraphQL](https://www.npmjs.com/package/graphql-request)
