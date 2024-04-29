@@ -1,0 +1,5 @@
+SHOPIFY_HOSTNAME="https://maxworld-nextjs.myshopify.com/"
+SHOPIFY_TOKEN="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"
+CACHE_TOKEN="9F4FB5F4DFD18BE838146B79665B5"
+SHOPIFY_GRAPHQL_ENDPOINT="https://maxworld-nextjs.myshopify.com/api/2023-10/graphql.json"
+SHOPIFY_STOREFRONT_TOKEN="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"
