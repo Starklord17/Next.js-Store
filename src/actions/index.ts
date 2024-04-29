@@ -1,3 +1,4 @@
+"use server"
 import { GraphQLClientSingleton } from "app/graphql"
 import { createUserMutation } from "app/graphql/mutations/createUserMutation"
 
