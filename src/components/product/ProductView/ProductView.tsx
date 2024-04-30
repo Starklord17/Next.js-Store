@@ -1,17 +1,12 @@
 import Image from "next/image";
 import { ProductViewItemsOrder } from "./ProductViewItemsOrder";
 import { SanitizeHTML } from "app/components/shared/SanitizeHTML";
-import styles from './ProductView.module.sass';
-
+import styles from './ProductView.module.sass'
 interface ProductViewProps {
-  product: ProductType | undefined; // Ensure product is possibly undefined
+  product: ProductType
 }
 
 export const ProductView = ({ product }: ProductViewProps) => {
-  // Add a null check for product
-  if (!product) {
-    return null; // or any fallback component for when product is undefined
-  }
 
   return (
     <main className={styles.ProductView}>
@@ -34,7 +29,7 @@ export const ProductView = ({ product }: ProductViewProps) => {
         <span className={styles.ProductView__info__price}>
           $ {product.price}
         </span>
-        <ProductViewItemsOrder maxQuantity={product.quantity} />
+        <ProductViewItemsOrder maxQuantity={product.quantity} product={product}/>
       </section>
     </main>
   )

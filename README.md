@@ -52,3 +52,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 Minimal GraphQL client supporting Node and browsers for scripts or simple apps
 - [graphql-request](https://www.npmjs.com/package/graphql-request)
+
+Zustand
+- https://docs.pmnd.rs/zustand/integrations/persisting-store-data#usage-in-next.js
