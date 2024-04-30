@@ -1,7 +1,7 @@
 interface ErrorPageProps {
   error: Error;
   reset: () => void;
-}
+};
 
 type ProductType = {
   id: string;
@@ -12,4 +12,11 @@ type ProductType = {
   quantity: number;
   handle: string;
   tags: string;
+};
+
+type CartItem = {
+  title: string;
+  price: number;
+  quantity: number;
+  id: string;
 };
