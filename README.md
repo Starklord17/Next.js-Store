@@ -55,3 +55,6 @@ Minimal GraphQL client supporting Node and browsers for scripts or simple apps
 
 Zustand
 - https://docs.pmnd.rs/zustand/integrations/persisting-store-data#usage-in-next.js
+
+Next.JS Middleware
+- https://nextjs.org/docs/app/building-your-application/routing/middleware
