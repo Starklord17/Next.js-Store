@@ -58,3 +58,7 @@ Zustand
 
 Next.JS Middleware
 - https://nextjs.org/docs/app/building-your-application/routing/middleware
+ 
+SDK IA de Vercel
+- https://vercel.com/blog/introducing-the-vercel-ai-sdk
+- https://platform.openai.com/docs/overview
