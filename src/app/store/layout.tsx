@@ -1,6 +1,7 @@
-import { getCollections } from "app/services/shopify/collections";
-import Link from "next/link";
-import styles from "./StoreLayout.module.sass";
+import Link from "next/link"
+import { ChatLink } from "app/components/Store/ChatLink"
+import { getCollections } from "app/services/shopify/collections"
+import styles from './StoreLayout.module.sass'
 
 export const runtime = "edge"
 
@@ -25,16 +26,15 @@ export default async function Layout({
       <h1>Explore</h1>
       <nav>
         <ul className={styles.StoreLayout__list}>
-          {collections.map((collection: any) => (
-            <Link
-              key={collection.id}
-              href={"/store/" + collection.handle}
-              className={styles.StoreLayout__chip}
-            >
-              {collection.title}
-            </Link>
-          ))}
+          {
+            collections?.map((collection: any) => (
+              <Link key={collection.id} href={'/store/' + collection.handle} className={styles.StoreLayout__chip}>
+                {collection.title}
+              </Link>
+            ))
+          }
         </ul>
+        <ChatLink />
       </nav>
       {children}
     </main>
