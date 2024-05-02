@@ -2,6 +2,8 @@ import { getCollections } from "app/services/shopify/collections";
 import Link from "next/link";
 import styles from "./StoreLayout.module.sass";
 
+export const runtime = "edge"
+
 /**
  * The function `Layout` is an async React component that fetches collections data and renders a layout
  * with navigation links and children components.
