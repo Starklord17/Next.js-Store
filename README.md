@@ -65,3 +65,6 @@ SDK IA de Vercel
 
 Bundle Analyzer
 - https://www.npmjs.com/package/@next/bundle-analyzer
+
+Resolving "app/ Static to Dynamic Error" in Next.js
+- https://nextjs.org/docs/messages/app-static-to-dynamic-error
