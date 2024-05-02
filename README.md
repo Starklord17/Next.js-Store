@@ -1,3 +1,5 @@
+# [Next.js 14 Store](https://maxnext-store.vercel.app/)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -35,36 +37,38 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Resources
+---
 
-- Pages Router: https://nextjs.org/docs/pages/api-reference/create-next-app
-- [Documentacion the shopify](https://shopify.dev/docs/api/storefront)
-- https://shopify.dev/docs/api/admin-rest/2023-10/resources/product#post-products
-- https://nextjs.org/docs/app/api-reference/functions/generate-metadata
-- https://www.npmjs.com/package/classnames
-- https://shopify.dev/docs/api/admin-rest/2023-10/resources/smartcollection
-- https://nextjs.org/docs/app/building-your-application/data-fetching/patterns
-- https://transform.tools/json-to-typescript
-- https://randomkeygen.com/
-- https://www.npmjs.com/package/sanitize-html
-- https://shopify.dev/docs/api/storefront
-- [Shopify Headless](https://apps.shopify.com/headless?locale=es&search_id=0dd5a103-8e6e-4a34-b9a5-47280c898af4&surface_detail=headless&surface_inter_position=1&surface_intra_position=4&surface_type=search)
+**Resources**
+-------------
 
-Minimal GraphQL client supporting Node and browsers for scripts or simple apps
-- [graphql-request](https://www.npmjs.com/package/graphql-request)
+### Next.js Documentation
 
-Zustand
-- https://docs.pmnd.rs/zustand/integrations/persisting-store-data#usage-in-next.js
+* [Pages Router](https://nextjs.org/docs/pages/api-reference/create-next-app)
+* [Next.js Middleware](https://nextjs.org/docs/app/building-your-application/routing/middleware)
 
-Next.JS Middleware
-- https://nextjs.org/docs/app/building-your-application/routing/middleware
- 
-SDK IA de Vercel
-- https://vercel.com/blog/introducing-the-vercel-ai-sdk
-- https://platform.openai.com/docs/overview
+### Shopify
 
-Bundle Analyzer
-- https://www.npmjs.com/package/@next/bundle-analyzer
+* [Shopify API Documentation](https://shopify.dev/docs/api/storefront)
+* [Shopify Headless](https://apps.shopify.com/headless?locale=es&search_id=0dd5a103-8e6e-4a34-b9a5-47280c898af4&surface_detail=headless&surface_inter_position=1&surface_intra_position=4&surface_type=search)
+* [Shopify API Admin REST](https://shopify.dev/docs/api/admin-rest/2023-10/resources/product#post-products)
+* [Shopify API Admin REST](https://shopify.dev/docs/api/admin-rest/2023-10/resources/smartcollection)
 
-Resolving "app/ Static to Dynamic Error" in Next.js
-- https://nextjs.org/docs/messages/app-static-to-dynamic-error
+### Utilities
+
+* [graphql-request](https://www.npmjs.com/package/graphql-request)
+* [Zustand](https://docs.pmnd.rs/zustand/integrations/persisting-store-data#usage-in-next.js)
+* [Bundle Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+* [Classnames](https://www.npmjs.com/package/classnames)
+* [Sanitize HTML](https://www.npmjs.com/package/sanitize-html)
+* [Transform Tools](https://transform.tools/json-to-typescript)
+* [Random Keygen](https://randomkeygen.com/)
+
+### AI chatbot (API key required)
+
+* [Vercel AI SDK](https://vercel.com/blog/introducing-the-vercel-ai-sdk)
+* [OpenAI Platform](https://platform.openai.com/docs/overview)
+
+### Error Resolution
+
+* [Resolving "app/ Static to Dynamic Error" in Next.js](https://nextjs.org/docs/messages/app-static-to-dynamic-error)
