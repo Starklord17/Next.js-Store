@@ -62,3 +62,6 @@ Next.JS Middleware
 SDK IA de Vercel
 - https://vercel.com/blog/introducing-the-vercel-ai-sdk
 - https://platform.openai.com/docs/overview
+
+Bundle Analyzer
+- https://www.npmjs.com/package/@next/bundle-analyzer
